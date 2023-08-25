@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /private/  # Prevent crawling of private sections
+Disallow: /admin/    # Prevent crawling of admin section
+Disallow: /checkout/ # Prevent crawling of checkout pages
+Disallow: /cart/     # Prevent crawling of cart pages
+Disallow: /search/   # Prevent crawling of search results
+
+Sitemap: https://yourwebsite.com/sitemap.xml
